@@ -8,29 +8,26 @@
     <body>
         <div class='navbar navbar-default navbar-static-top'>
             <div class='container'>
-                <div class='navbar-header'>
+                <div class="navbar-header">
                     <a href='/' class='navbar-brand'>Blasting Off With Bootstrap</a>
-                    <!-- pull-left / pull-right -->
                     <!-- add js functionality: data-* -->
-                    <button type='button' class="navbar-toggle" 
+                    <button type='button' class='navbar-toggle' 
                             data-toggle='collapse'
-                            data-toggle='.navbar-collapse'
-                            >
-                        <span class="sr-only">Toggle navigation</span>
+                            data-target='.navbar-collapse'>
+                       <!--  <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    <!--<i class='glyphicon glyphicon-align-justify'></i>-->
+                        <span class="icon-bar"></span> -->
                     </button>
-                </div>
                 
+                </div><!-- end navbar-header-->
                 <ul class='nav navbar-nav navbar-right collapse navbar-collapse'>
                   <li class="active"><a href='/'>Home</a></li>
                   <li><a href='tickets.html'>Tickets</a></li>
                   <li><a href='stations.html'>Stations</a></li>
                 </ul>
-            </div>
-        </div>
+            </div> <!-- end container -->
+        </div><!-- end navbar -->
         <div class='container'>
             <!-- <div class='row'>
                 <div class='col-md-12'>
@@ -104,9 +101,11 @@
       </div>
       </div>
             </div>
+        
+        <!--<i class='glyphicon glyphicon-align-justify'></i>-->
             
         <!-- this class will include a left col  as padding : col-md-offset-1 / col-xs-offset-1 -->
         <!--  hidden-sm hidden-xs -->
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
-        <script src='js/bootstrap.js'></script>
+        <script src='js/bootstrap.min.js'></script>
     </body>
